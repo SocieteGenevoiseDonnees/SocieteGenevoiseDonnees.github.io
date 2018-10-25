@@ -1,19 +1,6 @@
-# GitHub and Government [![Build Status](https://travis-ci.org/github/government.github.com.svg?branch=gh-pages)](https://travis-ci.org/github/government.github.com)
-
-![screenshot](assets/img/screenshot.png)
-
-Gather, curate, and feature stories of people using GitHub as part of their open government innovations.
+# SGD [![Build Status](https://travis-ci.org/github/societegenevoisedonnees.github.com.svg?branch=gh-pages)](https://travis-ci.org/github/societegenevoisedonnees.github.com)
 
 The site is open source (here's all the code!) and is a tool _for_ and _by_ the community.
-
-Submit [issues](https://github.com/github/government.github.com/issues/new) and [pull requests](https://github.com/github/government.github.com/compare/) for stories, site ideas or copy edits.
-
-### Goals
-
-- Share stories of real world experiences using GitHub in open Government
-- Demystify open source terminology
-- Showcase the community using GitHub to promote connections and sharing between individuals and organizations.
-- Make getting started with GitHub easier
 
 ### Under the Hood
 
@@ -24,10 +11,6 @@ This site is made with [Jekyll](http://jekyllrb.com), an open source static site
 #### Fix/Edit Content
 
 If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/github/government.github.com/issues/new).
-
-#### Add Organization
-
-If you know of an [GitHub organization](https://help.github.com/articles/about-organizations/) that should be added to the organization list that generates the matrix of avatars on the [Community](https://government.github.com/community/) page: fork this repository, open the [_data/civic_hackers.yml](_data/civic_hackers.yml), [_data/governments.yml](_data/governments.yml), or[_data/research.yml](_data/research.yml) file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
 
 ---
 
