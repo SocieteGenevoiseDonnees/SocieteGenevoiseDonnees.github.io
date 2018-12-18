@@ -1,4 +1,4 @@
-# SGD [![Build Status](https://travis-ci.org/github/societegenevoisedonnees.github.com.svg?branch=gh-pages)](https://travis-ci.org/github/societegenevoisedonnees.github.com)
+# SGD [![Build Status](https://travis-ci.org/SocieteGenevoiseDonnees/SocieteGenevoiseDonnees.github.io.svg?branch=gh-pages)](https://travis-ci.org/SocieteGenevoiseDonnees/SocieteGenevoiseDonnees.github.io)
 
 The site is open source (here's all the code!) and is a tool _for_ and _by_ the community.
 
