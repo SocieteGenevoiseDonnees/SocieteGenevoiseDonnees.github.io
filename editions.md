@@ -4,11 +4,13 @@ layout: support-page
 permalink: /editions/
 ---
 
+{% include edition-table.html orgs=site.data.editions id="editions" name="Editions" %}
+
 <div id="add-org" class="border-top pt-4 pt-md-6">
   <div class="clearfix gutter-spacious">
     <div class="col-md-6 float-left mb-4">
       <h3 class="alt-h3 mb-2">Create an edition</h3>
-      <p class="text-gray">This website is <a href="https://github.com/github/government.github.com">open source</a>, therefore anyone in the community can submit edits through pull requests.</p>
+      <p class="text-gray">This website is <a href="https://github.com/SocieteGenevoiseDonnees/SocieteGenevoiseDonnees.github.io">open source</a>, therefore anyone in the community can submit edits through pull requests.</p>
       <ol class="text-gray ml-3">
         <li class="mb-2">Click the edit (pencil) icon in the top right corner.</li>
         <li class="mb-2">Add your edition to the list in the appropriate section</li>
