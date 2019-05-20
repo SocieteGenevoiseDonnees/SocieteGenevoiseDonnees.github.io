@@ -4,7 +4,38 @@ layout: support-page
 permalink: /editions/
 ---
 
+{% comment %}
 {% include edition-table.html orgs=site.data.editions id="editions" name="Editions" %}
+{% endcomment %}
+
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% assign columns = 4 %}
+    {% for post in site.categories[category_name] %}
+
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4> 
+
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
+
+{% comment %}
+<div id="archives">
+{% for category in site.categories %}
+   {% capture category_name %}{{ category | first }}{% endcapture %}
+   {% for post in site.category[category_name] %}
+      [{{ post.title }}]({{post.url}})
+   {% endfor %}
+{% endfor %}
+{% endcomment %}
 
 <div id="add-org" class="border-top pt-4 pt-md-6">
   <div class="clearfix gutter-spacious">
@@ -17,7 +48,7 @@ permalink: /editions/
         <li class="mb-2">Click "propose file change" at the bottom of the page</li>
         <li class="mb-2">Click "create pull request"</li>
         <li class="mb-2">Provide a brief description of what you're proposing</li>
-        <li class="mb-2">Click "Create pull request"</li>
+        <li class="mb-2">Click "Submit pull request"</li>
       </ol>
     </div>
 
