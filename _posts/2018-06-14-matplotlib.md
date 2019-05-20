@@ -1,9 +1,8 @@
 ---
 layout: support-page
-title: Visualisation with matplotlib
+title: Data visualisation with matplotlib
 tags: [python, matplotlib, visualisation]
 ---
-
 
 ```python
 import pandas as pd
@@ -18,6 +17,81 @@ filename = "data/percent-bachelors-degrees-women-usa.csv"
 data = pd.read_csv(filename, usecols=['Year','Computer Science','Physical Sciences','Health Professions','Education'])
 data.head()
 ```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Computer Science</th>
+      <th>Education</th>
+      <th>Health Professions</th>
+      <th>Physical Sciences</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1970</td>
+      <td>13.6</td>
+      <td>74.535328</td>
+      <td>77.1</td>
+      <td>13.8</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1971</td>
+      <td>13.6</td>
+      <td>74.149204</td>
+      <td>75.5</td>
+      <td>14.9</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1972</td>
+      <td>14.9</td>
+      <td>73.554520</td>
+      <td>76.9</td>
+      <td>14.8</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1973</td>
+      <td>16.4</td>
+      <td>73.501814</td>
+      <td>77.4</td>
+      <td>16.5</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1974</td>
+      <td>18.9</td>
+      <td>73.336811</td>
+      <td>77.9</td>
+      <td>18.2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 
 
 ```python
@@ -47,6 +121,10 @@ plt.plot(years, computer_science, color='red')
 plt.show()
 ```
 
+
+![png](/assets/StepFive-Plotting/output_6_0.png)
+
+
 Make 2 plots side by side
 
 
@@ -68,6 +146,10 @@ plt.show()
 ```
 
 
+![png](/assets/StepFive-Plotting/output_8_0.png)
+
+
+
 ```python
 # Create a figure with 1x2 subplot and make the left subplot active
 plt.subplot(1,2,1)
@@ -87,6 +169,10 @@ plt.title('Computer Science')
 plt.tight_layout()
 plt.show()
 ```
+
+
+![png](/assets/StepFive-Plotting/output_9_0.png)
+
 
 
 ```python
@@ -124,6 +210,10 @@ plt.show()
 ```
 
 
+![png](/assets/StepFive-Plotting/output_10_0.png)
+
+
+
 ```python
 # % of degrees awarded to women in the Physical Sciences
 plt.plot(years, physical_sciences, label='physical sciences', color='blue')
@@ -138,6 +228,10 @@ plt.ylabel('number of degrees awarded')
 plt.show()
 ```
 
+
+![png](/assets/StepFive-Plotting/output_11_0.png)
+
+
 ## Plotting directly with Pandas!
 
 
@@ -146,5 +240,8 @@ data.plot(x="Year")
 plt.ylabel("number of degrees awarded")
 plt.show()
 ```
+
+
+![png](/assets/StepFive-Plotting/output_13_0.png)
 
 [back to edition]({% post_url 2018-06-14-Getting-Started %})
