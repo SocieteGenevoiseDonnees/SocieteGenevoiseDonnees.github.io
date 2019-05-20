@@ -41,7 +41,7 @@ Open `http://localhost:4000` in your browser
 images should be placed in `/assets/`
 
 ### editions
-new editions are placed in _posts the core *blog* post introducing the topic needs the tag category in the front matter, sub pages cannot have this attribute or else they will show up on the main page. To link between files merely add `{% page_url the-name-of-the-markdown-file %}.
+new editions are placed in _posts. They must have the date preceeding them in the format `YYYY-MM-DD-title.md`. The core *blog* post introducing the topic needs the attribute `category` in the front matter. Sub pages cannot have this attribute or else they will show up on the main page. To link between files merely add `{% page_url the-name-of-the-markdown-file %}.
 
 #### Jupyter Notebooks
 
