@@ -11,3 +11,4 @@ The addictive technique of using deep learning to convolute images with the styl
 
 In this edition we explore the fundamental nature of a convolutional neural network, give some examples of processing images in python and discuss some research applications of this exciting field.
 
+[Introduction to CNN and Transfer Learning with Keras]({% post_url 2018-12-18-Transfer-Learing-Intro %})
