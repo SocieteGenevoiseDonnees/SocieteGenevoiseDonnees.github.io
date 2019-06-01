@@ -1,10 +1,10 @@
 ---
 layout: support-page
-title: Filters Styles and Domains
+title: Convolutional Neural Networks and Transfer Learning
 tags: [CNN, neural networks, Keras, tutorial]
 ---
 
-# Transer Learing with Convolutional Neural Networks
+# Transfer Learning with Convolutional Neural Networks
 
 Now that we have some experience with CNNs let us try some transfer learning. Transfer learning is a method of reusing a model or knowledge for another related task. Transfer learning can be considered as spanning four scenarios:
 - The feature spaces of source and target domains are different from each other
