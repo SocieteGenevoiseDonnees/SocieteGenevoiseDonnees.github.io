@@ -17,7 +17,9 @@ This special session will focus on a beginners guide to some general tools for d
 - matplotlib : Looking at your data
 - Scikitlearn: A first look at learning from your data.
 
-See you soon!
+Join us and other users on Gitter!
+
+[![Gitter](https://badges.gitter.im/societegenevoisedonnees/Getting-started.svg)](https://gitter.im/societegenevoisedonnees/Getting-started?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ---
 
